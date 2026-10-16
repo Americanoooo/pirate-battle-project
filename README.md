@@ -12,6 +12,22 @@ Playwright**. Sail between islands, sink enemy ships and climb the ranking befor
 - [E2E HTML report of the delivered build](reports/e2e-html/index.html) (open with `npx playwright show-report reports/e2e-html`)
 - [Asset and font credits](CREDITS.md)
 
+## Author's notes
+
+This challenge was my first contact with game development on the frontend. Before it, my experience was
+with web applications and REST APIs, so concepts such as a game loop, time-based (delta time) simulation,
+movement by heading angle, collision detection and rendering with PixiJS were new to me.
+
+To deliver within the deadline, I built this project with the help of an AI assistant (Claude). It was
+used to generate most of the implementation, the test suites and the documentation. My work was guiding the
+process, studying the fundamentals as they came up (delta time and the fixed time step, moving with sine and
+cosine, keeping the simulation separate from rendering, writing unit tests with Vitest), running and
+checking the results, and making the delivery decisions.
+
+I am being transparent about this because I want my understanding of the code to be evaluated honestly.
+I am continuing to study each part of the solution so that I can explain the decisions in detail, and I am
+happy to walk through any part of it in a technical conversation.
+
 ## Quick start
 
 Requirements: **Node.js 22.12+** and npm.
